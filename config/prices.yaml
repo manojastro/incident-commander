@@ -1,0 +1,5 @@
+# Prices are placeholders set by learner — verify on provider site.
+# Mock-first slice uses usd_per_step only; no real LLM calls.
+mock_llm:
+  usd_per_step: 0.01
+  tokens_per_step: 350

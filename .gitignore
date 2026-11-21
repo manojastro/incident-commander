@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+.env
+data/runs/*.json
+reports/runs/*.md
+*.egg-info/
+dist/
+build/

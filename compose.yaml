@@ -1,0 +1,12 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      LLM_PROVIDER: mock
+      MAX_STEPS_PER_RUN: 12
+      MAX_USD_PER_RUN: 0.50
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
